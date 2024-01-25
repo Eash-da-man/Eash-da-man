@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Artist's Alibi </title>
+    <style>
+  .audio{
+    display: none;
+  
+  }
+      @font-face {
+        font-family: GolfClubHomicide-51azG; 
+        src: url(golf-club-homicide-font/GolfClubHomicide-51azG.ttf);
+      }
+        div {text-align: center;}
+        p {text-align: center;}
+        h1 {text-align: center;}
+       
+     body {
+  background-image: url('Web_Photo_Editor.jpg');
+}
+div{
+  margin: auto;
+  width: 75%;
+  height: fit-content;
+  border-color: white;
+}
+
+a { font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgba(46, 44, 44, 0.959)
+}
+
+
+
+h1 {
+  font-size: 50px;
+  font-family: GolfClubHomicide-51azG;
+  color: rgb(197, 10, 10);
+  text-align: center;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+}
+        </style>
+ <audio class="audio" loop src="Rayn.mp3" autoplay>
+   <source src="Rayn.mp3" type="audio/mpeg">
+        </audio>
+</head>
+<body>
+    <div>
+   <h1 for="uguess"> Ink and Blood </h1>
+   <br>
+   
+  <p id="Password"> You decide to guess the password before you give it to the detective, you wrote the book, you should know it! But what information are they trying to hide... </p>
+     <input
+     type="number"
+     name="guess"
+     id="guess1"
+     placeholder="Enter a Number"/>
+    <input type="button" value="Guess" onclick="playerGuess()">
+
+    
+</div>
+    <script src="complicated.js"></script>
+</body>
+</html>
